@@ -1,0 +1,17 @@
+.banner{
+    height: 100vh;
+    max-height: 1024px;
+    width: 100%;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9DB79;
+    background-size: cover;
+}
+.titulo_banner{
+    font-size: 5.5rem;
+    color: white;
+    text-shadow:  2px 3px 2px #474747;
+}

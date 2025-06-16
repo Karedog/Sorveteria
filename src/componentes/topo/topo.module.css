@@ -1,0 +1,33 @@
+.header{
+    background-color: #F9DB79;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+.caixa_menu{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 6vh;
+}
+
+.caixa_menu .nav_menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.caixa_menu .nav_menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+}
+.topo_logo{
+    width: 60px;
+}

@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    gap: 2rem;
+}
+.caixa_contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1024px;
+}
+.caixa_informacoes{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+}
+.caixa_informacoes:first-child{
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa_informacoes img{
+    width: 60px;
+    margin: 0 auto;
+}                                                                                       

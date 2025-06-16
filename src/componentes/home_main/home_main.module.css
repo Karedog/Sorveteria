@@ -1,0 +1,22 @@
+.cards_box{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+.box_image{
+    width: 50%;
+    height: 100%;
+}
+
+.box_image img{
+    height: 100%;
+}
+.box_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section_cards{
+    width: 100%;
+}
