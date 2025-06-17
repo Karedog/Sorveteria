@@ -1,3 +1,6 @@
+.section_cards{
+    width: 100%;
+}
 .cards_box{
     display: flex;
     justify-content: center;
@@ -17,6 +20,41 @@
     justify-content: center;
     align-items: center;
 }
-.section_cards{
-    width: 100%;
+@media screen and (max-width: 1024px) {
+    .cards_box{
+        height: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cards_box{
+        flex-direction: column;
+        height: 800px;
+        position: relative;
+        z-index: -99;
+    }
+    .box_image{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 50%;
+    }
+    .box_text{
+        position: absolute;
+        height: 50%;
+        bottom: 0;
+        width: 100%;
+    }
+        
+}
+@media screen and (max-width: 480px) {
+    .cards_box{
+        flex-direction: column;
+        height: 600px;
+        position: relative;
+        z-index: -99;
+    }
+
+        
 }
