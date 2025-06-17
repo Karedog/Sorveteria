@@ -7,6 +7,7 @@ export default function Topo(){
             <div className={estilo.topo_logo}>
                 <Logo/>
             </div>
+            <div className={estilo.linha}></div>
             <nav className={estilo.nav_menu}>
                 <a href="/">Home</a>
                 <a href="/sabores">Sabores</a>

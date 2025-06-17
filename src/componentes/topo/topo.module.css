@@ -31,3 +31,19 @@
 .topo_logo{
     width: 60px;
 }
+
+@media screen and (max-width: 768px) {
+    .caixa_menu{
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 2rem 0;
+        justify-content: center;
+        height: 120px;
+        margin: 0;
+    }
+    .linha{
+        width: 90%;
+        padding: 0.5px 0;
+        background-color: rgba(102, 77, 77, 0.8);
+    }
+}
