@@ -15,3 +15,16 @@
     color: white;
     text-shadow:  2px 3px 2px #474747;
 }
+
+@media screen and (max-width: 768px) {
+    .titulo_banner{
+        font-size: 3.5rem;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .titulo_banner{
+        font-size: 3rem;
+        text-align: center;
+    } 
+}

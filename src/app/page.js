@@ -6,7 +6,8 @@ import HomeMain from "@/componentes/home_main/home_main";
 export default function Home() {
   return (
     <main className={styles.page}>
-      <Banner size='30%'titulo="SORVERTE ARTESANAL" bannerImg={bannerImg.src}/>
+      asdasd
+      <Banner titulo="SORVERTE ARTESANAL" bannerImg={bannerImg.src} customClass={styles.bannerBackground}/>
       <HomeMain/>
     </main>
   );

@@ -1,3 +1,17 @@
-.page .banner{
-    background-size: 30%;
+.page .bannerBackground{
+    background-size: 700px;
+}
+
+@media screen and (max-width: 768px) {
+    .page .bannerBackground{
+        background-size: 600px;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .page .bannerBackground{
+        font-size: 3rem;
+        text-align: center;
+        background-size: 400px;
+    } 
 }
