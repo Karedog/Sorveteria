@@ -9,9 +9,9 @@ export default function Topo(){
             </div>
             <div className={estilo.linha}></div>
             <nav className={estilo.nav_menu}>
-                <a href="/">Home</a>
-                <a href="/sabores">Sabores</a>
-                <a href="/sobre">Sobre</a>
+                <a href="/Sorveteria">Home</a>
+                <a href="/Sorveteria/sabores">Sabores</a>
+                <a href="/Sorveteria/sobre">Sobre</a>
             </nav>
         </div>
 
