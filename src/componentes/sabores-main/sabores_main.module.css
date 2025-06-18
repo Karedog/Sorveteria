@@ -1,0 +1,20 @@
+.section_sabores{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+.section_sabores h2{
+    font-size: 2rem;
+}
+.card_box{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 1rem;
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 1rem;    
+    justify-content: center;
+}

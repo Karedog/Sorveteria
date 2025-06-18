@@ -9,7 +9,7 @@ import imgSaborCook from "../../../public/sabor-cookies-avela.png"
 
 export default function Sabores(){
     return (
-        <section className="Sabores">
+        <section className={style.section_sabores}>
             <h2>SABORES DE SORVETE</h2>
             <div className={style.card_box}>
                 <CardSabores 

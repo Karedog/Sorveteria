@@ -5,7 +5,7 @@ export default function CardSabores(props){
     return (
         <div className={style.card_sabores} >
             <div className={style.card_img}>
-                <Image 
+                <Image className={style.image}
                     src={props.image} 
                     alt={props.alt} 
                     width={100} 
